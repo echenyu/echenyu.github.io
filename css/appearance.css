@@ -1,0 +1,141 @@
+@font-face{
+	font-family:'myFont';
+	src: url('../fonts/Aaargh.ttf');
+}
+body{
+	background-color: black;
+}
+p{
+	color:white;
+	font-family: myFont;
+	text-align: left;
+	margin-left: 8%;
+	font-size: 18px;
+	width:100%;
+}
+li{
+	display: inline;
+	color:white;
+	margin-right:15px;
+	text-align: center;
+}
+
+h1{
+	color:white;
+	font-family: myFont;
+	float:left;
+	width:145px;
+}
+.header{
+	position:fixed;
+	/*By setting width to a greater size than the divs combined,
+	we can have all the divs on one line. Remember for future reference.
+	Very easy solution*/
+	width:1300px;
+	background-color: #222426;
+	top:0px;
+	z-index: 10;
+}
+.title{
+	padding-left: 30px;
+	padding-top:3px;
+	height:8px;
+	width:100px;
+	display:block;
+}
+.navigation{
+	position: relative;
+	float:left;
+	margin-left:170px;
+	width:550px;
+	display:block;
+}
+#resuMe{
+	float:left;
+	margin-left:200px;
+	font-family:myFont;
+	color:white;
+	text-decoration: none;
+	font-size: 18px;
+	width:100px;
+}
+
+
+#name{
+	color:white;
+	text-decoration: none;
+	font-size: 24px;
+	font-family: myFont;
+
+}
+a.nav{
+	color:white;
+	text-decoration: none;
+	font-size: 18px;
+	font-family: myFont;
+}
+a.nav:hover{
+	text-decoration: underline;
+}
+.anchor{
+	display: block;
+	position: relative;
+	top: -80px;
+}
+#mainHead{
+	font-size: 72px;
+	margin-top: 150px;
+	border-bottom: 1px solid #222426;
+	border-top: 1px solid #222426;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display:block;
+	text-align: center;
+}
+
+#description{
+	width: 500px;
+	margin: 40px auto;
+	text-align: center;
+}
+.difPages{
+	margin:265px auto 0px auto;
+	border-top: 1px solid #222426;
+	border-bottom: 1px solid #222426;
+	padding:10px;
+	text-align: center;
+}
+.center{
+	text-align: center;
+	margin:10px auto 0px auto;
+}
+
+#profilepic{
+	position:absolute;
+	top:10%;
+	left:3%;
+}
+.socialMedia{
+	background-color: #222426;
+	width: 100%;
+	text-align:center;
+	margin: 0px auto 0px auto;
+}
+#git{
+	background-color:white;
+}
+
+.stuffIDone{
+	opacity: 0.6;
+	margin-left: 30px;
+	margin-right:40px;
+	background-color:white;
+}
+.stuffIDone:hover{
+	opacity: 1;
+	cursor: pointer;
+}
+.imageAlign{
+	margin-left:10%;
+}
