@@ -170,10 +170,11 @@ a.nav:hover{
 	margin: 240px auto 0px auto;
 	border-bottom: 1px solid white;
 	padding-bottom:0px;
-	width:4%;
+	font-size: 30px;
 }
 #experiences2{
 	margin:30px auto 0px auto;
+	font-size:30px;
 }
 #contactMe{
 	margin: 0px auto 0px auto;
@@ -181,4 +182,7 @@ a.nav:hover{
 #back2{
 	background-color:#222426;
 	padding-bottom: 8%;
+}
+#back3{
+	background-color: 
 }
