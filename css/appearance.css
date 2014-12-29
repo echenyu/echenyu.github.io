@@ -26,6 +26,12 @@ h1{
 	float:left;
 	width:145px;
 }
+
+th{
+	color:white;
+	font-family: myFont;
+}
+
 .header{
 	position:fixed;
 	/*By setting width to a greater size than the divs combined,
@@ -53,6 +59,7 @@ h1{
 #resuMe{
 	float:left;
 	margin-left:200px;
+	margin-top:-7px;
 	font-family:myFont;
 	color:white;
 	text-decoration: none;
@@ -100,7 +107,7 @@ a.nav:hover{
 	text-align: center;
 }
 .difPages{
-	margin:265px auto 0px auto;
+	margin:310px auto 0px auto;
 	border-top: 1px solid #222426;
 	border-bottom: 1px solid #222426;
 	padding:10px;
@@ -138,4 +145,26 @@ a.nav:hover{
 }
 .imageAlign{
 	margin-left:10%;
+}
+.circle{
+	height: 70px;
+	width: 90px;
+	border-radius: 100%;
+	display: inline-block;
+	margin: 20px;
+	padding-top: 20px;
+}
+
+
+#circle1{
+	background-color: #d4728b;
+}
+#circle2{
+	background-color: #728bd4;
+}
+#circle3{
+	background-color: #8bd472;
+}
+#circle4{
+	background-color: #d4bb72;
 }
