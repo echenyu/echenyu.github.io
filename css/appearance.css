@@ -24,6 +24,8 @@ th{
 	color:white;
 	font-family: myFont;}
 
+
+
 /*This anchor helps us know where to go for the in page links. 
 Accounts for the fixed header*/
 .anchor{
@@ -93,7 +95,6 @@ site*/
 	width: 370px;
 	margin: 30px auto;
 }
-
 
 
 /*Selectors to set stuff up on page 2*/
