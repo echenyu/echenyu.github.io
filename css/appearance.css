@@ -31,12 +31,7 @@ th{
 	color:white;
 	font-family: myFont;
 }
-span{
-	color:#d4728b;
-}
-#mob0{
-	color:#d4bb72;
-}
+
 #mob1{
 	color:#728bd4;
 }
@@ -118,8 +113,7 @@ a.nav:hover{
 
 }
 .difPages{
-	border-top: 1px solid #222426;
-	border-bottom: 1px solid #222426;
+	border-bottom: 1px solid white;
 	padding:10px;
 	text-align: center;
 }
@@ -173,16 +167,14 @@ a.nav:hover{
 	font-size: 30px;
 }
 #experiences2{
-	margin:30px auto 0px auto;
+	margin:20px auto 0px auto;
 	font-size:30px;
 }
 #contactMe{
 	margin: 0px auto 0px auto;
+	font-size: 30px;
 }
 #back2{
 	background-color:#222426;
 	padding-bottom: 8%;
-}
-#back3{
-	background-color: 
 }
