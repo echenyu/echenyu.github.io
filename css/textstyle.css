@@ -37,3 +37,10 @@ h1, h3, h5{
 	color:white;
 	font-family: myFont;
 }
+
+.white{
+	color:white;
+	text-decoration: none;
+	font-size: 24px;
+	font-family: myFont;
+}

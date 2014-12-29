@@ -11,24 +11,25 @@ p{
 	text-align: left;
 	margin-left: 8%;
 	font-size: 18px;
-	width:100%;
-}
+	width:100%;}
 li{
-	display: inline;
+	display: inline-block;
 	color:white;
-	margin-right:15px;
-	text-align: center;
-}
-
+	margin-right:0px;
+	text-align: center;}
 h1{
 	float:left;
-	width:145px;
-}
-
-
+	width:145px;}
 th{
 	color:white;
-	font-family: myFont;
+	font-family: myFont;}
+
+/*This anchor helps us know where to go for the in page links. 
+Accounts for the fixed header*/
+.anchor{
+	display: block;
+	position: relative;
+	top: -75px;
 }
 #top{
 	position:absolute;
@@ -40,18 +41,13 @@ th{
 	/*By setting width to a greater size than the divs combined,
 	we can have all the divs on one line. Remember for future reference.
 	Very easy solution*/
-	width:1300px;
+	width:100%;
 	background-color: #151515;
 	top:0px;
 	left:0px;
 	z-index: 10;
 }
-.white{
-	color:white;
-	text-decoration: none;
-	font-size: 24px;
-	font-family: myFont;
-}
+
 
 /*The next three selectors are to set things up for the navigation bar at the
 top of the page*/
@@ -65,17 +61,20 @@ top of the page*/
 #navigation{
 	position: relative;
 	float:left;
-	margin: 6px auto auto 170px;
+	margin: 6px auto auto 180px;
 	width:550px;
 	display:block;
 }
 #resume{
 	display:block;
 	float:right;
-	margin-right:100px;
+	margin-right:40px;
 	margin-top:-5px;
 }
 
+.nav{
+	margin-left:10px;
+}
 /*This one is for the main text that opens when you come onto the
 site*/
 #mainHead{
@@ -95,18 +94,13 @@ site*/
 	margin: 30px auto;
 }
 
-/*This anchor helps us know where to go for the in page links. 
-Accounts for the fixed header*/
-.anchor{
-	display: block;
-	position: relative;
-	top: -75px;
-}
+
 
 /*Selectors to set stuff up on page 2*/
 #page2{
 	background-color:#222426;
 	padding-bottom: 10%;
+	margin-left:-10px;
 }
 #aboutMe{
 	margin: 240px auto 0px auto;
@@ -122,23 +116,30 @@ specific colors based on the id's*/
 	border-radius: 100%;
 	display: inline-block;
 	padding-top: 25px;
-	margin:20px;
 }
 #circle1{
 	background-color: #d4728b;
+	margin:15px;
 }
 #circle2{
 	background-color: #728bd4;
+	margin:15px;
 }
 #circle3{
 	background-color: #8bd472;
+	margin:15px;
 }
 #circle4{
 	background-color: #d4bb72;
+	margin:15px;
 }
 
 
 /*The rest of these are for page 3*/
+#contactpage{
+	background-color:#222426;
+	margin-left: -10px;
+}
 .project{
 	font-size: 14px;
 	width:250px;
@@ -151,9 +152,13 @@ specific colors based on the id's*/
 	float:left;
 	margin:0.8%;
 }
-.socialMedia{
+
+/**/
+#footer{
 	background-color: #222426;
-	width: 100%;
-	text-align:center;
-	margin: 0px auto 0px auto;
+	text-align: center;
+	margin-left: -5%;
+}
+#footerlist{
+	display: inline-block;
 }
