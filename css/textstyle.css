@@ -1,0 +1,39 @@
+/*These two affect the color of 2 items in the description*/
+#mob1{
+	color:#728bd4;
+}
+#mob2{
+	color:#8bd472;
+}
+
+.difPages{
+	font-size: 30px;
+	text-align: center;
+	padding-top: 15px;
+}
+
+/*This centers the text in the middle*/
+.center{
+	text-align: center;
+	margin:10px auto 0px auto;
+}
+
+a.nav{
+	color:white;
+	text-decoration: none;
+	font-size: 18px;
+	font-family: myFont;
+}
+a.nav:hover{
+	text-decoration: underline;
+}
+
+.titleul{
+	border-bottom: 1px solid white;
+	padding-bottom:0px;
+}
+
+h1, h3, h5{
+	color:white;
+	font-family: myFont;
+}

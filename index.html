@@ -3,6 +3,7 @@
 	<head>
 		<title> eric yu </title>
 		<link href="css/appearance.css" type="text/css" rel="stylesheet">
+		<link href="css/textstyle.css" type="text/css" rel="stylesheet">
 		<link href="css/960.css" type="text/css" rel="stylesheet">
 		<link href="css/text.css" type="text/css" rel="stylesheet">
 
@@ -16,10 +17,13 @@
 
 		<!-- This div is used to set up the nav bar-->
 		<div class="header">
-			<div class="title">
-				<h1><a href="#top" id="name">ey</a></h1>
+			<!-- Title on the left of top bar -->
+			<div id="title">
+				<h1><a href="#top" id="name" class="white">ey</a></h1>
 			</div>
-			<div class="navigation">
+
+			<!-- Navigation items -->
+			<div id="navigation">
 				<ul>
 					<li><a href="#top" class="nav">home</a></li>
 					<li><a href="#aboutSection" class="nav">about</a></li>
@@ -28,27 +32,27 @@
 				</ul>
 			</div>
 
-			<div class="resume">
-				<p><a href="resume.pdf" id="resuMe">resume</a></p>
+			<!-- Quick link to resume -->
+			<div id="resume">
+				<p><a href="resume.pdf" class="white">resume</a></p>
 			</div>
 		</div>
-		<br/>
 
-		<div class = "firstpage">
+		<!-- Page 1 content -->
+		<div id = "firstpage">
 			<div> 
-				<p id="mainHead"> HELLO, I'M ERIC</p>
+				<p id="mainHead" class="center"> HELLO, I'M ERIC</p>
 			</div>
 			<div>
-				<p id="description"> aspiring <span id="mob1">mobile app</span> & <span id="mob2">web developer</span>
+				<p id="description" class="center"> aspiring <span id="mob1">mobile app</span> & <span id="mob2">web developer</span>
 				</p>
-			</div>
-			
+			</div>	
 		</div>
 		
-
-		<div id="back2">
+		<!-- Start of page 2 -->
+		<div id="page2">
 			<a class="anchor" id="aboutSection"></a>
-			<p id="aboutMe" class="difPages"> about</p>
+			<p id="aboutMe" class="difPages titleul"> about</p>
 			<br/><br/>
 			<p class="center"> i am a second-year computer science engineer <br/>
 				at the university of michigan. <br/>
@@ -74,10 +78,12 @@
 			</div>
 		</div>
 		
-		<div id="back3">
+		<!-- Start of page 3 -->
+		<div id="page3">
 			<a class="anchor" id="experiences"></a>
-			<p class="difPages" id="experiences2">experiences</p>
+			<p class="difPages center titleul">experiences</p>
 			<h3> c++ projects</h3>
+
 			<div class = "projdiv">
 				<h5 class="center"> <a class="projtitle" href="profile/p1/project1.cpp">Project 1: Harry Potter</a></h5>
 					<p class="center project"> For this project, we were asked to simulate both a 
@@ -114,17 +120,19 @@
 			<div> startup high school</div>
 		</div>
 
+		<!-- Contact page -->
 		<div>
 			<a class="anchor" id="contacts"></a>
-			<p id="contactMe" class ="difPages">contact me</p>
+			<p id="contactMe" class ="difPages center titleul">contact me</p>
 			<br/>
 			<p class="center"> the best way to contact me is by phone @ 616-856-1490 <br/> otherwise, shoot me an email @ echenyu@umich.edu</p>
 			<br/><br/><br/>
 		</div>
 		<div>
 			<ul class="socialMedia" > 
-				<li><img src="images/fb.png" alt="Facebook" ></li>
-				<li><img src="images/git.png" alt="Git" id="git"></li>
+				<li>a</li>
+				<li>b</li>
+				<li>b</li>
 			</ul>
 		</div>
 		<script type="text/javascript" src="js/smoothscroll.js"> </script>
