@@ -26,7 +26,14 @@ h1{
 	float:left;
 	width:145px;
 }
-
+h3{
+	color:white;
+	font-family: myFont;
+}
+h5{
+	color:white;
+	font-family:myFont;
+}
 th{
 	color:white;
 	font-family: myFont;
@@ -177,4 +184,16 @@ a.nav:hover{
 #back2{
 	background-color:#222426;
 	padding-bottom: 8%;
+}
+.project{
+	font-size: 14px;
+	width:250px;
+}
+.projtitle{
+	color:white;
+}
+.projdiv{
+	width:23%;
+	float:left;
+	margin:0.8%;
 }
