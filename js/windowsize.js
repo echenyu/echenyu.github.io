@@ -17,7 +17,9 @@ $(document).ready(function(){
 	var z = screen.availHeight/2.5 + 'px';
 	mainHeadMargin.style.marginTop = z; 
 
-	
+	var navigation = document.getElementById('navigation');
+	var a = screen.availWidth/3.6 + 'px';
+	navigation.style.marginLeft = a; 
 
 	console.log(screen.height); 
 	console.log(x);

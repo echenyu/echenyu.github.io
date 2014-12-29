@@ -55,11 +55,9 @@ top of the page*/
 	display:block;
 }
 #navigation{
-	position: relative;
-	float:left;
-	margin: 6px auto auto 180px;
-	width:550px;
+	position: absolute;
 	display:block;
+	margin-top: 4px;
 }
 #resume{
 	display:block;
