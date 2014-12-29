@@ -10,13 +10,11 @@
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	</head>
 	<body>
-		<!-- <img src="images/glass.png" alt="Google Glass Pic of Me" id="profilepic"> -->
-
 		<!-- Use this div to find the top of the page -->
 		<div id="top"></div>
 
 		<!-- This div is used to set up the nav bar-->
-		<div class="header">
+		<div id="header">
 			<!-- Title on the left of top bar -->
 			<div id="title">
 				<h1><a href="#top" id="name" class="white">eric yu</a></h1>
@@ -48,7 +46,8 @@
 				</p>
 			</div>	
 		</div>
-		
+
+
 		<!-- Start of page 2 -->
 		<div id="page2">
 			<a class="anchor" id="aboutSection"></a>
@@ -74,13 +73,14 @@
 						<p class="center">html/css </p>
 				</div> 
 			</div>
-			<br/><br/><br/><br/>
-			<p class = "center">hobbies: </p>
+
+			<div id = "hobbies">
+				<p class = "center">hobbies: </p>
 				<p class="center smaller"> -all up in that polyphasic sleep life (everyman 3) </p>
 				<p class="center smaller"> -jamming and recording music sessions (piano, guitar, singing)</p>
 				<p class="center smaller"> -saying hi to strangers in elevators</p>
 				<p class="center smaller"> -fifa fifa fifa fifa fifa</p>
-			<br/><br/>
+			</div>
 		</div>
 		
 		<!-- Start of page 3 -->
@@ -121,8 +121,24 @@
 					Traveling Salesman problem. <br/>
 					<strong>Data Structures Used: Priority Queue, Vectors</strong></p>
 			</div>
+
+			<!-- Objective C section -->
+			<h3> objective c </h3>
+			<div> 
+				<p> tap4food </p>
+			</div>
+
+			<!-- html/css section -->
+			<h3> html/css </h3>
+				<div>
+					<p> this web portfolio</p>
+				</div>
+
+			<!-- startup high school -->
 			<h3> entrepreneurship </h3>
-			<div> startup high school</div>
+			<div> 
+				<img src="images/shs.png">
+			</div>
 		</div>
 
 		<!-- Contact page -->
@@ -143,8 +159,10 @@
 				<li> <a href="https://www.linkedin.com/pub/eric-yu/80/50b/826"><img src="images/linkedin.png"> </a></li>
 				<li> <a href="mailto:echenyu@umich.edu"><img src="images/email.png"></a></li>
 			</ul>
-		</div>
+		</div>	
+
 
 		<script type="text/javascript" src="js/smoothscroll.js"> </script>
+		<script type="text/javascript" src="js/windowsize.js"> </script>
 	</body>
 </html>
