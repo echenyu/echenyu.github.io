@@ -31,7 +31,18 @@ th{
 	color:white;
 	font-family: myFont;
 }
-
+span{
+	color:#d4728b;
+}
+#mob0{
+	color:#d4bb72;
+}
+#mob1{
+	color:#728bd4;
+}
+#mob2{
+	color:#8bd472;
+}
 .header{
 	position:fixed;
 	/*By setting width to a greater size than the divs combined,
@@ -73,7 +84,6 @@ th{
 	text-decoration: none;
 	font-size: 24px;
 	font-family: myFont;
-
 }
 a.nav{
 	color:white;
@@ -102,12 +112,12 @@ a.nav:hover{
 }
 
 #description{
-	width: 500px;
+	width: 370px;
 	margin: 40px auto;
 	text-align: center;
+
 }
 .difPages{
-	margin:310px auto 0px auto;
 	border-top: 1px solid #222426;
 	border-bottom: 1px solid #222426;
 	padding:10px;
@@ -133,26 +143,13 @@ a.nav:hover{
 	background-color:white;
 }
 
-.stuffIDone{
-	opacity: 0.6;
-	margin-left: 30px;
-	margin-right:40px;
-	background-color:white;
-}
-.stuffIDone:hover{
-	opacity: 1;
-	cursor: pointer;
-}
-.imageAlign{
-	margin-left:10%;
-}
 .circle{
-	height: 70px;
-	width: 90px;
+	height: 75px;
+	width: 100px;
 	border-radius: 100%;
 	display: inline-block;
 	margin: 20px;
-	padding-top: 20px;
+	padding-top: 25px;
 }
 
 
@@ -167,4 +164,14 @@ a.nav:hover{
 }
 #circle4{
 	background-color: #d4bb72;
+}
+
+#aboutMe{
+	margin: 310px auto 0px auto;
+}
+#experiences2{
+	margin:95px auto 0px auto;
+}
+#contactMe{
+	margin: 0px auto 0px auto;
 }
