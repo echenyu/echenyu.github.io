@@ -49,7 +49,7 @@ span{
 	we can have all the divs on one line. Remember for future reference.
 	Very easy solution*/
 	width:1300px;
-	background-color: #222426;
+	background-color: #151515;
 	top:0px;
 	z-index: 10;
 }
@@ -97,11 +97,11 @@ a.nav:hover{
 .anchor{
 	display: block;
 	position: relative;
-	top: -80px;
+	top: -75px;
 }
 #mainHead{
 	font-size: 72px;
-	margin-top: 150px;
+	margin-top: 20%;
 	border-bottom: 1px solid #222426;
 	border-top: 1px solid #222426;
 	width: 100%;
@@ -113,7 +113,7 @@ a.nav:hover{
 
 #description{
 	width: 370px;
-	margin: 40px auto;
+	margin: 30px auto;
 	text-align: center;
 
 }
@@ -167,11 +167,18 @@ a.nav:hover{
 }
 
 #aboutMe{
-	margin: 310px auto 0px auto;
+	margin: 240px auto 0px auto;
+	border-bottom: 1px solid white;
+	padding-bottom:0px;
+	width:4%;
 }
 #experiences2{
-	margin:95px auto 0px auto;
+	margin:30px auto 0px auto;
 }
 #contactMe{
 	margin: 0px auto 0px auto;
+}
+#back2{
+	background-color:#222426;
+	padding-bottom: 8%;
 }
